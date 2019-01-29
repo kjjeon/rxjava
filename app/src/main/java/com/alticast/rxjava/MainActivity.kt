@@ -27,16 +27,6 @@ class MainActivity : AppCompatActivity() {
             .subscribe {
                 Log.d(TAG,"kclass1 $it")
             }.drop()
-
-
-        val d: Disposable = Kclass1().createObservable()
-            .subscribe ({
-                Log.d(TAG,"kclass1 $it")
-            },
-                {
-
-                }
-            )
     }
 
     override fun onDestroy() {

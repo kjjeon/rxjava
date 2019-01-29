@@ -2,6 +2,8 @@ package com.alticast.rxjava.java;
 
 import io.reactivex.subjects.PublishSubject;
 
+
+
 public class Jclass3 {
 
     private PublishSubject<String> publishSubject = PublishSubject.create();
